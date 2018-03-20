@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SaladMeCustomerPortal</string>
+    <string name="login_title">Salad Me!</string>
+    <string name="login_username">username</string>
+    <string name="login_password">password</string>
+    <string name="login_welcome">Welcome, please login below</string>
+</resources>
