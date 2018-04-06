@@ -3,6 +3,7 @@ package com.studio.jkwebplace.saladmecustomerportal;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.EditText;
+import com.amazonaws.mobile.client.AWSMobileClient;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,5 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         EditText editTextUsername = findViewById(R.id.editTextUsername);
         EditText editTextPassword = findViewById(R.id.editTextPassword);
+
+        AWSMobileClient.getInstance().initialize(this).execute();
     }
 }
