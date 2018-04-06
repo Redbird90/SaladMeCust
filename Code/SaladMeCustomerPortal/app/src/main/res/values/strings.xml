@@ -4,4 +4,12 @@
     <string name="login_username">username</string>
     <string name="login_password">password</string>
     <string name="login_welcome">Welcome, please login below</string>
+    <string name="default_contdesc_accountimgbtn">account details</string>
+    <string name="default_news">News</string>
+    <string name="default_currentordersdefault">No open orders detected</string>
+    <string name="default_ordernowbtn">Place Order</string>
+    <string name="ordering_contdesc_backimgbtn">back button</string>
+    <string name="ordering_contdesc_closeimgbtn">exit order button</string>
+    <string name="ordering_chooseitem">Choose from our available completed salads</string>
+    <string name="ordering_startfromscratch">Or, create your own salad</string>
 </resources>
